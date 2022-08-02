@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">QuizT</string>
+
+    <string name="general_button_ok">OK</string>
+    <string name="general_button_retrySomething">Retry</string>
+    <string name="general_error_unknownError">Unknown Error</string>
+    <string name="general_error_serverError">Server error</string>
+    <string name="general_error_networkConnection">Check your network connection</string>
+    <string name="main_button_startQuiz">Start quiz</string>
+    <string name="question_button_next">Next</string>
+    <string name="question_button_finish">Finish</string>
+</resources>

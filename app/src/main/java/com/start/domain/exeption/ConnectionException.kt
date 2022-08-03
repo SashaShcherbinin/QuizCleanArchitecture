@@ -1,4 +1,4 @@
-package e.palyvo.domain.exeption
+package com.start.domain.exeption
 
 import java.io.IOException
 

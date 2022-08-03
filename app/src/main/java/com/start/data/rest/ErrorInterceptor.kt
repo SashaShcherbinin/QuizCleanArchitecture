@@ -1,8 +1,8 @@
 package com.start.data.rest
 
 import com.google.gson.Gson
-import e.palyvo.domain.exeption.ConnectionException
-import e.palyvo.domain.exeption.ServerException
+import com.start.domain.exeption.ConnectionException
+import com.start.domain.exeption.ServerException
 import okhttp3.Interceptor
 import okhttp3.Response
 import timber.log.Timber

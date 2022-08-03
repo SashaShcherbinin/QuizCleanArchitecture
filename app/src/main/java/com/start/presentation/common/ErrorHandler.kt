@@ -6,9 +6,9 @@ import com.start.R
 import com.start.presentation.entity.ContentError
 import com.start.presentation.entity.MessageContentError
 import com.start.presentation.entity.ResourceStringContentError
-import e.palyvo.domain.exeption.ConnectionException
-import e.palyvo.domain.exeption.ServerApiException
-import e.palyvo.domain.exeption.ServerException
+import com.start.domain.exeption.ConnectionException
+import com.start.domain.exeption.ServerApiException
+import com.start.domain.exeption.ServerException
 import timber.log.Timber
 
 open class ErrorHandler {

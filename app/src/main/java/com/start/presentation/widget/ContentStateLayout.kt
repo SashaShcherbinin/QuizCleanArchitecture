@@ -10,7 +10,7 @@ import android.widget.FrameLayout
 import com.start.R
 import com.start.presentation.extension.gone
 import com.start.presentation.extension.visible
-import e.palyvo.presentation.common.entity.ContentState
+import com.start.presentation.entity.ContentState
 
 class ContentStateLayout(context: Context, attrs: AttributeSet) : FrameLayout(context, attrs) {
 

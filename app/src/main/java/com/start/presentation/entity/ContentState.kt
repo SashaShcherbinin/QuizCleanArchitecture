@@ -1,6 +1,4 @@
-package e.palyvo.presentation.common.entity
-
-import com.start.presentation.entity.ContentError
+package com.start.presentation.entity
 
 enum class ContentState {
 

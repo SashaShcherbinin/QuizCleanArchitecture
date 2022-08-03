@@ -2,7 +2,7 @@ package com.start.presentation.binding
 
 import androidx.databinding.BindingAdapter
 import com.start.presentation.widget.ContentStateLayout
-import e.palyvo.presentation.common.entity.ContentState
+import com.start.presentation.entity.ContentState
 
 object CustomBindingAdapter {
 

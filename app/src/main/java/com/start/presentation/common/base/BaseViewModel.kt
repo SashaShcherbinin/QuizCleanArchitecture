@@ -8,7 +8,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.start.presentation.common.ErrorHandler
 import com.start.presentation.entity.ContentError
-import e.palyvo.presentation.common.entity.ContentState
+import com.start.presentation.entity.ContentState
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.*

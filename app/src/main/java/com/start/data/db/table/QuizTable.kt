@@ -5,6 +5,7 @@ import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.PrimaryKey
 
+const val QUIZ_ID = "-1"
 
 @Entity(tableName = "quiz")
 data class QuizTable(

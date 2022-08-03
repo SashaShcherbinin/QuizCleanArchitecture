@@ -1,6 +1,7 @@
 package com.start.data.db.mapper
 
 import com.start.data.db.table.OptionTable
+import com.start.data.db.table.QUIZ_ID
 import com.start.data.db.table.QuestionTable
 import com.start.data.db.table.QuizTable
 import com.start.domain.entity.Option
@@ -13,16 +14,18 @@ class QuizDbMapper
 @Inject
 constructor() {
 
-    fun mapToQuiz(value: Quiz): QuizTable = QuizTable(
-        id = "-1",
-        startId = value.startId
-    )
+    fun mapToQuiz(value: Quiz): QuizTable {
+        return QuizTable(
+            id = QUIZ_ID,
+            startId = value.startId
+        )
+    }
 
     fun mapToQuestions(value: Quiz): List<QuestionTable> {
         return value.question.map {
             QuestionTable(
                 id = it.id,
-                quizId = "-1",
+                quizId = QUIZ_ID,
                 nextId = it.nextId,
                 type = it.type.name,
                 text = it.text

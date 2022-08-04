@@ -1,0 +1,8 @@
+{
+  "id": "q_farmer_name",
+  "question_type": "FREE_TEXT",
+  "answer_type": "SINGLE_LINE_TEXT",
+  "question_text": "q_farmer_name",
+  "options": [],
+  "next": "q_farmer_gender"
+}

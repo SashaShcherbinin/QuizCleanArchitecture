@@ -1,3 +1,5 @@
+@file:Suppress("unused")
+
 package com.start.presentation.common
 
 import android.app.Activity

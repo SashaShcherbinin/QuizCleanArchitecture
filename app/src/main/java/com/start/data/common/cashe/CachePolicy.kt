@@ -3,7 +3,7 @@ package com.start.data.common.cashe
 import androidx.annotation.NonNull
 import java.util.concurrent.TimeUnit
 
-class CachePolicy private constructor(private val time: Int, private val timeUnit: TimeUnit) {
+open class CachePolicy private constructor(private val time: Int, private val timeUnit: TimeUnit) {
 
     fun isExpired(entry: CachedEntry<*>): Boolean {
         val currentTime = getTime()

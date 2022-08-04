@@ -8,6 +8,7 @@ import com.start.data.common.cashe.CachePolicy
 import com.start.data.common.cashe.CachedEntry
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.*
+import kotlinx.coroutines.yield
 import timber.log.Timber
 
 @Suppress("unused", "EXPERIMENTAL_API_USAGE")
@@ -54,6 +55,7 @@ class LocalStorage<K : Any, E> constructor(
     }
 
     private suspend fun fetchData(key: K) {
+        yield()
         val value = network(key)
         cache.put(key, CachePolicy.createEntry(value))
         dataBase?.insertOrUpdate(key, value)
